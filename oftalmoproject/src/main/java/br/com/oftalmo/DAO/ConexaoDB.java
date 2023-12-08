@@ -7,10 +7,10 @@ import java.sql.SQLException;
 
 public class ConexaoDB {
     //TODO: criar variáveis de ambiente para os dados de acesso ao banco.
-    private static final String dbName = "oftalmodb";
-    private static final String dbURL = "jdbc:postgresql://localhost:5434/";
-    private static final String username = "postgres";
-    private static final String password = "livialeite00LL";
+    private static final String dbName = 
+    private static final String dbURL = 
+    private static final String username =
+    private static final String password = 
 
     public static Connection conexaoDB() throws ClassNotFoundException, SQLException {
         Class.forName("org.postgresql.Driver");
